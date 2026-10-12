@@ -9,7 +9,7 @@
 الملف نفسه في الرابطين، اختر اللي يناسبك:
 
 - **GitHub:** [MandateOrder-Arabic-v1.2-manual.zip](https://github.com/qutaiba73/mandate-order-arabic/releases/download/v1.2/MandateOrder-Arabic-v1.2-manual.zip)
-- **MediaFire:** [MEDIAFIRE_LINK]
+- **MediaFire:** [MandateOrder-Arabic-v1.2-manual.zip](https://www.mediafire.com/file/88gyv7bwb1brqnx/MandateOrder-Arabic-v1.2-manual.zip/file)
 
 بصمة الملف SHA-256: `19d4ac6b49f61570b45394fcc941264c0fdd6c776e0520df623cee999ee640c9`
 
