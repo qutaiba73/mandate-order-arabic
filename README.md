@@ -1,6 +1,6 @@
 # تعريب Mandate Order (授命)
 
-تعريب كامل ومجاني للعبة Mandate Order بالعربية الفصحى. الإصدار الحالي **1.3**، ومطابق لنسخة اللعبة **0.5.0** (تحديث 15 أكتوبر، بناء Steam رقم 25953329).
+تعريب كامل ومجاني للعبة Mandate Order بالعربية الفصحى. الإصدار الحالي **1.3.1**، ومطابق لنسخة اللعبة **0.5.0** (تحديث 15 أكتوبر، بناء Steam رقم 25953329).
 
 ![القائمة الرئيسية](screenshots/01_main_menu.jpg)
 
@@ -8,17 +8,21 @@
 
 الملف نفسه في الرابطين، اختر اللي يناسبك:
 
-- **GitHub:** [MandateOrder-Arabic-v1.3-manual.zip](https://github.com/qutaiba73/mandate-order-arabic/releases/download/v1.3/MandateOrder-Arabic-v1.3-manual.zip)
-- **MediaFire:** [MandateOrder-Arabic-v1.3-manual.zip](https://www.mediafire.com/file/zewut2em09p41bd/MandateOrder-Arabic-v1.3-manual.zip/file)
+- **GitHub:** [MandateOrder-Arabic-v1.3.1-manual.zip](https://github.com/qutaiba73/mandate-order-arabic/releases/download/v1.3.1/MandateOrder-Arabic-v1.3.1-manual.zip)
+- **Nexus Mods:** [صفحة المود على Nexus](https://www.nexusmods.com/mandateorder/mods/2)
 
-بصمة الملف SHA-256: `9bad39dad0e40012d9f76b04801dd1f84061fe0ab785828f147e92a89f086f99`
+بصمة الملف SHA-256: `51177f65ec2308216e13702309df59d39f1c66e33989e023f14cf1bdba425200`
 
-## الجديد في 1.3
-- ترجمة نصوص تحديث اللعبة في 15 أكتوبر (اختيار وجهة النقل، رسائل توقّف الشحن، تحذير عجز نقود الداو، سعة الثكنات).
-- إصلاحات من ملاحظاتكم: تبويب «الإنتاج» في مخازن السجن والمعبد، وترتيب «الأثر:» في نافذة الطريق، وتوحيد زر «طلب الترقية»، وتقصير نصوص كانت تطلع برا مكانها.
-- مشاكل معروفة: عنوان نافذة الطريق وبعض الملصقات العائمة على الخريطة مقصوصة من فوق، وأسماء المباني في لوحة L-Alt مقطوعة.
+## الجديد في 1.3.1
+- لوحة نظرة عامة على المباني (L-Alt): الأسماء صارت متصلة وبالترتيب الصحيح بعد ما كانت مفرّقة ومقلوبة.
+- عنوان نافذة الطريق يطلع كامل، و«الأثر:» صارت قبل الجملة.
+- شاشة الرتبة: زر «طلب الترقية»، وشرط «الخيمة القيادية» ما عاد مقلوب.
+- ملصقات الخريطة العائمة («التقاط»، «إيداع المواد في المخزن») صارت صحيحة.
+- ترجمة نصوص تحديث اللعبة في 15 أكتوبر، وتبويب «الإنتاج» في السجن والمعبد، وزر «تفاصيل» في بطاقة القوة.
+- تقصير صفوف الترقية اللي كانت تنقص أو تتداخل.
+- جربته داخل اللعب على تحديث 15 أكتوبر.
 
-**إذا عندك 1.2:** نزّل 1.3 وانسخ محتويات `files` فوق القديم (الخطوة 4)، وUE4SS ما يحتاج تعيد تثبيته.
+**إذا عندك نسخة قديمة:** نزّل 1.3.1 وانسخ محتويات `files` فوق القديم (الخطوة 4)، وUE4SS ما يحتاج تعيد تثبيته.
 
 ## وش يشمل التعريب
 
@@ -65,8 +69,8 @@ MOProject\Binaries\Win64\MOProject-Win64-Shipping.exe
 3. إذا ما لقيت `UE4SS.log` معناها UE4SS ما اشتغل. تأكد أن `dwmapi.dll` في نفس المجلد اللي فيه `MOProject-Win64-Shipping.exe`، مو داخل مجلد `ue4ss`. لا تكمل لين يطلع الملف.
 
 ### الخطوة 4: أضف ملفات التعريب
-1. نزّل ملف `MandateOrder-Arabic-v1.3-manual.zip` من قسم [التحميل](#التحميل) فوق.
-2. فك ضغط `MandateOrder-Arabic-v1.3-manual.zip`. بيطلع لك مجلد اسمه `MandateOrder-Arabic-v1.3-manual`.
+1. نزّل ملف `MandateOrder-Arabic-v1.3.1-manual.zip` من قسم [التحميل](#التحميل) فوق.
+2. فك ضغط `MandateOrder-Arabic-v1.3.1-manual.zip`. بيطلع لك مجلد اسمه `MandateOrder-Arabic-v1.3.1-manual`.
 3. افتحه، وبعدين افتح مجلد **`files`**. بتلقى داخله مجلدين: **`Engine`** و**`MOProject`**.
 4. حدد **المجلدين** (`Engine` و`MOProject`) وانسخهم داخل **مجلد اللعبة** اللي فتحته في الخطوة 1، يعني المجلد اللي فيه `MOProject.exe`.
 5. Windows بيقول لك إن المجلدات موجودة. اختر **الدمج** أو **Replace the files in the destination**. هذا يضيف ملفات التعريب بس، وما يستبدل أي ملف أصلي من ملفات اللعبة.
@@ -82,7 +86,7 @@ MOProject\Binaries\Win64\ue4ss\Mods\ArabicUI\Scripts\ar_prefix.lua
 MOProject\Binaries\Win64\ue4ss\Mods\ArabicUI\Scripts\ar_unshape.lua
 ```
 
-**غلطة منتشرة:** ناس تنسخ مجلد `files` نفسه، أو مجلد `MandateOrder-Arabic-v1.3-manual` كله، داخل مجلد اللعبة. انسخ بس اللي **داخل** `files`.
+**غلطة منتشرة:** ناس تنسخ مجلد `files` نفسه، أو مجلد `MandateOrder-Arabic-v1.3.1-manual` كله، داخل مجلد اللعبة. انسخ بس اللي **داخل** `files`.
 
 ### الخطوة 5: العب
 شغّل اللعبة، وبتفتح بالعربي تلقائيًا. ما تحتاج تغيّر اللغة من الإعدادات، ولا تحتاج تعدّل ملف `mods.txt`.
